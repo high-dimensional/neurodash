@@ -2,7 +2,8 @@
 An interactive dashboard for operational analysis of radiological reports
 
 ## Installation
-Clone the repository and create a conda environment from the `neuro_env.yml` file.
+Clone the repository and install via
+`pip install -e .`
 Alternatively, download the docker image. 
 ## Usage
 
