@@ -1,0 +1,36 @@
+title = "analysis config"
+[dates]
+start = "01-04-2019"
+end = "20-03-2023"
+[to_plot.a]
+name = "age_at_study"
+type = "percent"#"count"
+breakdown = ["Patient Sex"]
+[to_plot.b]
+name = "Patient Sex"
+type = "count"
+breakdown = []
+[to_plot.c]
+name = "Specialty"
+type = "count"
+breakdown = ["has-treatment"]
+[to_plot.d]
+name = "IS_NORMAL"
+type = "count"
+breakdown = ["Specialty","age_at_study"]
+[to_plot.e]
+name = "Ordering Clinician"
+type = "count"
+breakdown = []
+[to_plot.f]
+name = "uses_contrast"
+type = "percent"#"count"
+breakdown = ["Specialty","Procedure",""]
+[to_plot.g]
+name = "has_artefact"
+type = "percent"#"count"
+breakdown = ["age_at_study","Patient Sex"]
+[to_plot.h]
+name = "has-inflammatory-autoimmune"
+type = "count"
+breakdown = ["age_at_study","Patient Sex"]

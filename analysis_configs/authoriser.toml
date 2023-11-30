@@ -1,0 +1,9 @@
+title = "analysis config"
+[dates]
+start = "01-04-2019"
+end = "20-03-2023"
+[to_plot.a]
+name = "Authorising Clinician"
+type = "percent"#"count"
+breakdown = ["has-treatment","has-neoplastic-paraneoplastic","has-ischaemic", "Patient Sex", "age_at_study","has-inflammatory-autoimmune","uses_contrast","has_artefact","Study Status"]
+

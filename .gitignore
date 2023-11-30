@@ -1,0 +1,6 @@
+service_runs/*
+src/neurodash/__pycache__/*
+dist/*
+dashboard_test_data/*
+dashboard_assets/output*
+models/*

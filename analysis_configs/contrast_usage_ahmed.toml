@@ -1,0 +1,26 @@
+title = "analysis config for ahmed"
+[dates]
+start = "01-09-2013"
+end = "04-09-2023"
+[to_plot.a]
+name = "uses_contrast"
+type = "count"
+breakdown = [
+    #"has-haemorrhagic",
+    #"has-ischaemic",
+    #"has-vascular",
+    #"has-cerebrovascular",
+    #"has-treatment",
+    #"has-inflammatory-autoimmune",
+    #"has-congenital-developmental",
+    #"has-csf-disorders",
+    #"has-musculoskeletal",
+    #"has-neoplastic-paraneoplastic",
+    #"has-infectious",
+    #"has-neurodegenerative-dementia",
+    #"has-metabolic-nutritional-toxic",
+    "has-endocrine",
+    "has-opthalmological",
+    "has-traumatic",
+    "Patient Sex","age_at_study"
+    ]

@@ -1,0 +1,317 @@
+{
+    "MRN": {
+        "display_name": "MRN",
+        "in_selection_panel": false,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "not_plottable",
+        "allowed_plot_views": []
+    },
+    "End Exam Date": {
+        "display_name": "End Exam Date",
+        "in_selection_panel": true,
+        "inferred": false,
+        "dtype": "date",
+        "plot_type": "not_plottable",
+        "allowed_plot_views": []
+    },
+    "Accession #": {
+        "display_name": "Accession #",
+        "in_selection_panel": false,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "not_plottable",
+        "allowed_plot_views": []
+    },
+    "Narrative": {
+        "display_name": "Narrative",
+        "in_selection_panel": false,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "not_plottable",
+        "allowed_plot_views": []
+    },
+    "Study Status": {
+        "display_name": "Study Status",
+        "in_selection_panel": false,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "categorical",
+        "allowed_plot_views": [
+            "Integrated",
+            "Integrated - logarithmic",
+            "Temporal",
+            "Temporal - % change",
+            "Temporal - proportion"
+        ]
+    },
+    "Procedure": {
+        "display_name": "Procedure",
+        "in_selection_panel": true,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "categorical",
+        "allowed_plot_views": [
+            "Integrated",
+            "Integrated - logarithmic",
+            "Temporal",
+            "Temporal - % change",
+            "Temporal - proportion"
+        ]
+    },
+    "Reporting Clinicians": {
+        "display_name": "Reporting Clinicians",
+        "in_selection_panel": true,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "categorical",
+        "allowed_plot_views": [
+            "Integrated",
+            "Integrated - logarithmic",
+            "Temporal",
+            "Temporal - % change",
+            "Temporal - proportion"
+        ]
+    },
+    "Name": {
+        "display_name": "Name",
+        "in_selection_panel": false,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "not_plottable",
+        "allowed_plot_views": []
+    },
+    "Requesting Clinician": {
+        "display_name": "Requesting Clinician",
+        "in_selection_panel": true,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "categorical",
+        "allowed_plot_views": [
+            "Integrated",
+            "Integrated - logarithmic",
+            "Temporal",
+            "Temporal - % change",
+            "Temporal - proportion"
+        ]
+    },
+    "Sex": {
+        "display_name": "Sex",
+        "in_selection_panel": true,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "per_patient_categorical",
+        "allowed_plot_views": [
+            "Integrated",
+            "Integrated - logarithmic"
+        ]
+    },
+    "Dept Specialty": {
+        "display_name": "Department Specialty",
+        "in_selection_panel": true,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "categorical",
+        "allowed_plot_views": [
+            "Integrated",
+            "Integrated - logarithmic",
+            "Temporal",
+            "Temporal - % change",
+            "Temporal - proportion"
+        ]
+    },
+    "Appt Location": {
+        "display_name": "Appointment Location",
+        "in_selection_panel": false,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "categorical",
+        "allowed_plot_views": [
+            "Integrated",
+            "Integrated - logarithmic",
+            "Temporal",
+            "Temporal - % change",
+            "Temporal - proportion"
+        ]
+    },
+    "Quality Priority": {
+        "display_name": "Quality Priority",
+        "in_selection_panel": true,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "categorical",
+        "allowed_plot_views": [
+            "Integrated",
+            "Integrated - logarithmic",
+            "Temporal",
+            "Temporal - % change",
+            "Temporal - proportion"
+        ]
+    },
+    "Base Pt Class": {
+        "display_name": "Base Patient Class",
+        "in_selection_panel": true,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "categorical",
+        "allowed_plot_views": [
+            "Integrated",
+            "Integrated - logarithmic",
+            "Temporal",
+            "Temporal - % change",
+            "Temporal - proportion"
+        ]
+    },
+    "Age": {
+        "display_name": "Age",
+        "in_selection_panel": true,
+        "inferred": false,
+        "dtype": "integer",
+        "plot_type": "per_patient_continuous",
+        "allowed_plot_views": ["Integrated", "Integrated - logarithmic"]
+    },
+    "Order ID": {
+        "display_name": "Order ID",
+        "in_selection_panel": false,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "not_plottable",
+        "allowed_plot_views": []
+    },
+    "Dept": {
+        "display_name": "Department",
+        "in_selection_panel": true,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "categorical",
+        "allowed_plot_views": [
+            "Integrated",
+            "Integrated - logarithmic",
+            "Temporal",
+            "Temporal - % change",
+            "Temporal - proportion"
+        ]
+    },
+    "Ordering Dept": {
+        "display_name": "Ordering Department",
+        "in_selection_panel": true,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "categorical",
+        "allowed_plot_views": [
+            "Integrated",
+            "Integrated - logarithmic",
+            "Temporal",
+            "Temporal - % change",
+            "Temporal - proportion"
+        ]
+    },
+    "Technologist": {
+        "display_name": "Technologist",
+        "in_selection_panel": false,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "categorical",
+        "allowed_plot_views": [
+            "Integrated",
+            "Integrated - logarithmic",
+            "Temporal",
+            "Temporal - % change",
+            "Temporal - proportion"
+        ]
+    },
+    "Authorising Clinician": {
+        "display_name": "Authorising Clinician",
+        "in_selection_panel": true,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "categorical",
+        "allowed_plot_views": [
+            "Integrated",
+            "Integrated - logarithmic",
+            "Temporal",
+            "Temporal - % change",
+            "Temporal - proportion"
+        ]
+    },
+    "Category": {
+        "display_name": "Category",
+        "in_selection_panel": false,
+        "inferred": false,
+        "dtype": "string",
+        "plot_type": "categorical",
+        "allowed_plot_views": [
+            "Integrated",
+            "Integrated - logarithmic",
+            "Temporal",
+            "Temporal - % change",
+            "Temporal - proportion"
+        ]
+    },
+    "uses_contrast": {
+        "display_name": "Uses contrast?",
+        "in_selection_panel": true,
+        "inferred": true,
+        "dtype": "boolean",
+        "plot_type": "categorical",
+        "allowed_plot_views": [
+            "Integrated",
+            "Integrated - logarithmic",
+            "Temporal",
+            "Temporal - % change",
+            "Temporal - proportion"
+        ]
+    },
+    "normality_class": {
+        "display_name": "Normality class",
+        "in_selection_panel": true,
+        "inferred": true,
+        "dtype": "string",
+        "plot_type": "categorical",
+        "allowed_plot_views": [
+            "Integrated",
+            "Integrated - logarithmic",
+            "Temporal",
+            "Temporal - % change",
+            "Temporal - proportion"
+        ]
+    },
+    "is_comparative": {
+        "display_name": "Compared to previous scans?",
+        "in_selection_panel": false,
+        "inferred": true,
+        "dtype": "boolean",
+        "plot_type": "categorical",
+        "allowed_plot_views": [
+            "Integrated",
+            "Integrated - logarithmic",
+            "Temporal",
+            "Temporal - % change",
+            "Temporal - proportion"
+        ]
+    },
+    "report_length_words": {
+        "display_name": "Report word length",
+        "in_selection_panel": false,
+        "inferred": true,
+        "dtype": "integer",
+        "plot_type": "continuous",
+        "allowed_plot_views": ["Integrated", "Integrated - logarithmic", "Temporal"]
+    },
+    "sections": {
+        "display_name": "Report Sections",
+        "in_selection_panel": false,
+        "inferred": true,
+        "dtype": "list",
+        "plot_type": "not_plottable",
+        "allowed_plot_views": []
+    },
+    "pathological_domains": {
+        "display_name": "Pathological domain",
+        "in_selection_panel": true,
+        "inferred": true,
+        "dtype": "list",
+        "plot_type": "not_plottable",
+        "allowed_plot_views": []
+    }
+}
