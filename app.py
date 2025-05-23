@@ -1,10 +1,11 @@
-""" neuroDash dashboard app
+"""neuroDash dashboard app
 
 Dashboard displaying the selection,
 summarization and plotting of
 neuroradiological reports using the
 neuroNLP package.
 """
+
 from datetime import date
 
 import matplotlib.pyplot as plt

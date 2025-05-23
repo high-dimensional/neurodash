@@ -1,8 +1,9 @@
-""" Clinical display for neuroDash
+"""Clinical display for neuroDash
 
 Display and analysis tools for the clinical
 view of the neuroDash dashboard
 """
+
 import pandas as pd
 import streamlit as st
 from spacy import displacy
@@ -24,9 +25,11 @@ def display_doc(doc):
         }
     }
     assertion_val_ents = [
-        Span(doc, e.start, e.end, label=e.label_ + "-DENIED")
-        if e._.is_negated
-        else Span(doc, e.start, e.end, label=e.label_ + "-ASSERTED")
+        (
+            Span(doc, e.start, e.end, label=e.label_ + "-DENIED")
+            if e._.is_negated
+            else Span(doc, e.start, e.end, label=e.label_ + "-ASSERTED")
+        )
         for e in doc.ents
     ]
     doc.ents = assertion_val_ents

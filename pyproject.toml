@@ -1,19 +1,10 @@
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
 [project]
 name = "neurodash"
-dynamic = ["version"]
-description = 'An interactive dashboard for operational analysis of radiological reports'
+version = "0.1.0"
+description = "An interactive dashboard for operational analysis of radiological reports"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.10"
 license = "MIT"
-keywords = []
-authors = [
-  { name = "Henry Watkins", email = "h.watkins@ucl.ac.uk" },
-]
-classifiers = []
 dependencies = [
   "streamlit",
   "matplotlib",
@@ -25,28 +16,17 @@ dependencies = [
   "reportlab",
   "seaborn",
   "spacy",
-  "kaleido",
-  "neurocluster", ## @ {home:uri}/Desktop/neurocluster/dist/neurocluster-0.0.1-py3-none-any.whl",
-  "neurollm", ## @ {home:uri}/Desktop/neurollm/dist/neurollm-0.0.1-py3-none-any.whl",
-  "neuradicon", ## @ {home:uri}/Desktop/neuradicon/dist/neuradicon-0.0.1-py3-none-any.whl",
 ]
 
 
-[project.urls]
 
-[tool.hatch.metadata]
-allow-direct-references = true
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
-
-[tool.hatch.version]
-path = "src/neurodash/__about__.py"
-
-[tool.hatch.envs.default]
-dependencies = [
-  "black",
-  "isort",
-  "pytest",
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "isort>=6.0.1",
+    "pytest>=8.3.5",
 ]
-[tool.hatch.envs.default.scripts]
-test = "pytest {args:tests}"
-fmt = "black . ; isort ."

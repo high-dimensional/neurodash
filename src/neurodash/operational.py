@@ -1,4 +1,4 @@
-""" Operational display for neuroDash
+"""Operational display for neuroDash
 
 Display and analysis tools for the operational view
 of the neuroDash dashboard

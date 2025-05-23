@@ -1,5 +1,5 @@
-"""Utilty functions for neuroDash
-"""
+"""Utilty functions for neuroDash"""
+
 import base64
 import io
 import json
@@ -61,18 +61,18 @@ def model_factory(inference_models):
 
 
 def replace_normality_labels(df):
-    df.loc[
-        df["normality_class"] == "DEFACTO", "normality_class"
-    ] = "NORMAL AS NO ASSERTION"
-    df.loc[
-        df["normality_class"] == "STOCK", "normality_class"
-    ] = "NORMAL USING STOCK PHRASE"
-    df.loc[
-        df["normality_class"] == "INCIDENTAL", "normality_class"
-    ] = "NORMAL WITH INCIDENTALS"
-    df.loc[
-        df["normality_class"] == "CONTEXTUAL", "normality_class"
-    ] = "NORMAL ACCORDING TO CONTEXT"
+    df.loc[df["normality_class"] == "DEFACTO", "normality_class"] = (
+        "NORMAL AS NO ASSERTION"
+    )
+    df.loc[df["normality_class"] == "STOCK", "normality_class"] = (
+        "NORMAL USING STOCK PHRASE"
+    )
+    df.loc[df["normality_class"] == "INCIDENTAL", "normality_class"] = (
+        "NORMAL WITH INCIDENTALS"
+    )
+    df.loc[df["normality_class"] == "CONTEXTUAL", "normality_class"] = (
+        "NORMAL ACCORDING TO CONTEXT"
+    )
     return df
 
 
